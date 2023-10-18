@@ -1,0 +1,110 @@
+.main3{
+    height:2200px;
+}
+ .project1{
+    padding-left: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-right: 5px;
+    width: 100%;
+    height:auto;
+    border:2px solid black;
+}
+.project1 .prblmStatement{
+    color:black;
+}
+.project1 .projectName{
+    color:black;
+}
+.project1 .projectName h4{
+    margin-left: 151px;
+    margin-top: -39px;
+}
+.project1 .prblmStatement h4{
+    margin-left: 297px;
+    margin-top: -40px;
+    margin-right: 20px;
+}
+.picture
+{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.flowchart img{
+    width: 420px;
+    height: 300px;
+    margin-top: 10px;
+    margin-left: 200px;
+}
+
+.project1 .device img{
+    width: 450px;
+    height: 300px;
+    margin-top: -350px;
+    margin-left: 700px;
+} 
+.silent-feature{
+    margin-top: 20px;
+    color:black;
+    /* border:2px solid black; */
+    margin-bottom: 20px;
+}
+
+.working-flow{
+    margin-top: 5px;;
+    color:black;
+    /* border:2px solid black; */
+}
+ 
+ 
+/* project 2 */
+.project2{
+    padding-left: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-right: 5px;
+    width: 100%;
+    height:1050px;
+    border:2px solid black;
+}
+
+.project2 .prblmStatement{
+    color:black;
+}
+.project2 .projectName{
+    color:black;
+}
+.project2 .projectName h4{
+    margin-left: 151px;
+    margin-top: -39px;
+}
+.project2 .prblmStatement h4{
+    margin-left: 297px;
+    margin-top: -40px;
+    margin-right: 20px;
+}
+
+.picture2 .flowchat img{
+    width: 300px;
+    height: 365px;
+    margin-top: 60px;
+    margin-left: 230px;
+}
+
+.picture2 .mlflowchat img{
+    width: 300px;
+    height: 300px;
+    margin-top: -409px;
+    margin-left: 476px;
+}
+.picture2 .result img{
+    width: 468px;
+    height: 357px;
+    margin-top: -473px;
+    margin-left: 761px;
+}
+
+.silentfeature{
+    color:black;
+    margin-bottom: 10px;
+}
