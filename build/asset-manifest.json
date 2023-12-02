@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.73031e05.css",
-    "main.js": "/static/js/main.19723f41.js",
+    "main.js": "/static/js/main.9fff8479.js",
     "static/js/787.dd88a0c8.chunk.js": "/static/js/787.dd88a0c8.chunk.js",
     "static/media/dsa.jpg": "/static/media/dsa.446748459c0155c09cff.jpg",
     "static/media/prototypeOutput.png": "/static/media/prototypeOutput.2568d7762f585b687ac2.png",
@@ -12,9 +12,7 @@
     "static/media/hackathon.jpg": "/static/media/hackathon.4b66e6383a9cd558d6a5.jpg",
     "static/media/machinelearningflowchart.png": "/static/media/machinelearningflowchart.c2ccb5813d6b469a3091.png",
     "static/media/datascience.jpg": "/static/media/datascience.b89903e08d4d4771cdbe.jpg",
-    "static/media/devimg.png": "/static/media/devimg.70a9ee9ea773b33cb06b.png",
     "static/media/experiance.jpg": "/static/media/experiance.066b73a33c2f9d8e0830.jpg",
-    "static/media/Sign.jpg": "/static/media/Sign.d26d0fec9af844fd1b8b.jpg",
     "static/media/device.jpg": "/static/media/device.2146f253a0ef7b1bd04c.jpg",
     "static/media/10thschool.jpg": "/static/media/10thschool.f5e9b97e7c36e08cb756.jpg",
     "static/media/Deeplearning.jpg": "/static/media/Deeplearning.e6e312660d4d7d77be2f.jpg",
@@ -26,11 +24,11 @@
     "static/media/intershipdatascience.jpg": "/static/media/intershipdatascience.1f9f3d36307f0ef4103b.jpg",
     "index.html": "/index.html",
     "main.73031e05.css.map": "/static/css/main.73031e05.css.map",
-    "main.19723f41.js.map": "/static/js/main.19723f41.js.map",
+    "main.9fff8479.js.map": "/static/js/main.9fff8479.js.map",
     "787.dd88a0c8.chunk.js.map": "/static/js/787.dd88a0c8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.73031e05.css",
-    "static/js/main.19723f41.js"
+    "static/js/main.9fff8479.js"
   ]
 }

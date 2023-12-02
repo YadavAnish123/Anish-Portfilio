@@ -7,7 +7,7 @@ const About = () => {
       <div className="main-info">
         <div className="profile">
           <div className="profile-img">
-            <img src={require("./IMG-20220918-WA0005.jpg")} alt="" />
+            <img src={require("./image.png")} alt="" />
           </div>
           <div className="sign">
             <img src={require("./sign.png")} alt="" />

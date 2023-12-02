@@ -29,7 +29,7 @@ const Home = () => {
                             
                             {/* <a href="http://localhost:5000/resume" className="btn btn-dark" style={{}} target="_blank"> Download Resume</a> */}
                             <button className="btn btn-dark" onClick={onButtonClick}>
-                    Download PDF
+                    Download Resume
                 </button>
                              
                             <a href="https://github.com/YadavAnish123" className="btn btn-dark" style={{}} target="_blank">Github</a>
@@ -37,7 +37,7 @@ const Home = () => {
 
                     </div>
                     <div className="rightSection">
-                        <img src="https://png.pngtree.com/png-vector/20230903/ourmid/pngtree-3d-illustration-of-character-website-developer-png-image_9954600.png" alt="" />
+                    <img src={require("./image.png")} alt="" />
                     </div>
                 </section>
                 <hr />

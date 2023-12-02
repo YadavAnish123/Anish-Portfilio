@@ -8,9 +8,10 @@
 .profile-img.profile-img img{
     
     
-    width: 300px;
-    margin-left: 50px;
-    margin-top:50px;
+  width: 300px;
+  margin-left: 51px;
+  margin-top: -6px;
+  height: 291px;
    
   }
 .sign img{
@@ -27,7 +28,7 @@
   }
   .introduction{
     color: black;
-    /* border: 2px solid black; */
+    
     height: 243px;
     width: 519px;
     margin-left: 498px;
@@ -68,7 +69,7 @@
   }
 .collegeBio{
     color: black;
-    /* border: 2px solid black; */
+   
     height: 370px;
     width: 600px;
     margin-left: 498px;
@@ -96,7 +97,7 @@
 }
 .schoolBio12{
     color: black;
-    /* border: 2px solid black; */
+     
     height: 221px;
     width: 600px;
     margin-left: 498px;
@@ -105,7 +106,7 @@
 }
 .schoolBio10{
   color: black;
-   /* border: 2px solid black;  */
+  
   height: 100px;
   width: 400px;
   margin-left: 572px;
