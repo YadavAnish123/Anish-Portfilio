@@ -23,7 +23,7 @@ const ContectMe = () => {
 			body: raw,
 		};
 
-		fetch("https://vercel-test-peach-nine.vercel.app/messageMe", requestOptions)
+		fetch("https://vercel-test-anish-kumars-projects.vercel.app/messageMe", requestOptions)
 			.then((result) => {
 				console.log(result);
                 alert("message sended");
