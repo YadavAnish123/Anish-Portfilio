@@ -1,6 +1,7 @@
 import React ,{useState}from 'react';
 import './ContectMe.css'; // Import the CSS file
 
+
 const ContectMe = () => {
     const [name, setName] = useState("");
 	const [email, setEmail] = useState("");
@@ -8,32 +9,15 @@ const ContectMe = () => {
     const handleSubmit = (e) => {
 		e.preventDefault();
 
-		var myHeaders = new Headers();
-		myHeaders.append("Content-Type", "application/json");
+        if (!name || !email || !message) {
+            alert("Please fill in all required fields.");
+            return;
+          }
+        else{
+            alert("message sended");
+             
 
-		var raw = JSON.stringify({
-			name: name,
-			email: email,
-			message: message,
-		});
-
-		var requestOptions = {
-			method: "POST",
-			headers: myHeaders,
-			body: raw,
-		};
-
-		fetch("https://vercel-test-peach-nine.vercel.app/messageMe", requestOptions)
-			.then((result) => {
-				console.log(result);
-                alert("message sended");
-				setName("");
-				setEmail("");
-				setMessage("");
-                 
-			})
-			.catch((error) => console.log("error", error));
-		// Reset form fields
+        }   
 	};
     return (
         <div className="main2">

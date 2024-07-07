@@ -1,5 +1,6 @@
 import React from 'react'
 import CertificateItem from './CertificateItem'
+import './Certificateitem.css'
 
 
 const Certificates = () => {

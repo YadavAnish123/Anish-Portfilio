@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.73031e05.css",
-    "main.js": "/static/js/main.9fff8479.js",
+    "main.css": "/static/css/main.971f600f.css",
+    "main.js": "/static/js/main.7ece8f5f.js",
     "static/js/787.dd88a0c8.chunk.js": "/static/js/787.dd88a0c8.chunk.js",
+    "static/media/image.png": "/static/media/image.5d35abf2adc865f86a47.png",
     "static/media/dsa.jpg": "/static/media/dsa.446748459c0155c09cff.jpg",
     "static/media/prototypeOutput.png": "/static/media/prototypeOutput.2568d7762f585b687ac2.png",
     "static/media/condingNinja.jpg": "/static/media/condingNinja.b29241830fe97e5ab85e.jpg",
     "static/media/sihflowchat.png": "/static/media/sihflowchat.914f825eea164c5a1226.png",
     "static/media/resume.jpg": "/static/media/resume.322a9927c4349f5435a9.jpg",
-    "static/media/AnishResume.pdf": "/static/media/AnishResume.8bbac6146ecf7f57023e.pdf",
     "static/media/hackathon.jpg": "/static/media/hackathon.4b66e6383a9cd558d6a5.jpg",
     "static/media/machinelearningflowchart.png": "/static/media/machinelearningflowchart.c2ccb5813d6b469a3091.png",
     "static/media/datascience.jpg": "/static/media/datascience.b89903e08d4d4771cdbe.jpg",
@@ -18,17 +18,18 @@
     "static/media/Deeplearning.jpg": "/static/media/Deeplearning.e6e312660d4d7d77be2f.jpg",
     "static/media/python.jpg": "/static/media/python.652740fe298171c1c544.jpg",
     "static/media/IMG-20220918-WA0005.jpg": "/static/media/IMG-20220918-WA0005.db1b236adc9190bc9513.jpg",
+    "static/media/AnishResume.pdf": "/static/media/AnishResume.20a714a75ef82eb0260b.pdf",
     "static/media/project2flowchat (2).png": "/static/media/project2flowchat (2).7394c012014cc7f4391f.png",
     "static/media/12school.jpg": "/static/media/12school.ecc56552c36a0d350ff8.jpg",
     "static/media/collegeimg.jpg": "/static/media/collegeimg.e03d8ea7adbaafe4dbe6.jpg",
     "static/media/intershipdatascience.jpg": "/static/media/intershipdatascience.1f9f3d36307f0ef4103b.jpg",
     "index.html": "/index.html",
-    "main.73031e05.css.map": "/static/css/main.73031e05.css.map",
-    "main.9fff8479.js.map": "/static/js/main.9fff8479.js.map",
+    "main.971f600f.css.map": "/static/css/main.971f600f.css.map",
+    "main.7ece8f5f.js.map": "/static/js/main.7ece8f5f.js.map",
     "787.dd88a0c8.chunk.js.map": "/static/js/787.dd88a0c8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.73031e05.css",
-    "static/js/main.9fff8479.js"
+    "static/css/main.971f600f.css",
+    "static/js/main.7ece8f5f.js"
   ]
 }
