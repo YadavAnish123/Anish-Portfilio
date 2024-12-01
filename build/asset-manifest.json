@@ -1,11 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.971f600f.css",
-    "main.js": "/static/js/main.7ece8f5f.js",
+    "main.css": "/static/css/main.8be378a0.css",
+    "main.js": "/static/js/main.2fa1b657.js",
     "static/js/787.dd88a0c8.chunk.js": "/static/js/787.dd88a0c8.chunk.js",
     "static/media/image.png": "/static/media/image.5d35abf2adc865f86a47.png",
+    "static/media/logo.png": "/static/media/logo.cb8e5078405bdcf32ca7.png",
     "static/media/dsa.jpg": "/static/media/dsa.446748459c0155c09cff.jpg",
+    "static/media/10th.jpg": "/static/media/10th.4c717e9567311e6b14a6.jpg",
     "static/media/prototypeOutput.png": "/static/media/prototypeOutput.2568d7762f585b687ac2.png",
+    "static/media/12th.jpg": "/static/media/12th.072eaabbc405732ab85c.jpg",
     "static/media/condingNinja.jpg": "/static/media/condingNinja.b29241830fe97e5ab85e.jpg",
     "static/media/sihflowchat.png": "/static/media/sihflowchat.914f825eea164c5a1226.png",
     "static/media/resume.jpg": "/static/media/resume.322a9927c4349f5435a9.jpg",
@@ -21,15 +24,16 @@
     "static/media/AnishResume.pdf": "/static/media/AnishResume.20a714a75ef82eb0260b.pdf",
     "static/media/project2flowchat (2).png": "/static/media/project2flowchat (2).7394c012014cc7f4391f.png",
     "static/media/12school.jpg": "/static/media/12school.ecc56552c36a0d350ff8.jpg",
+    "static/media/personalimg1.jpg": "/static/media/personalimg1.54c5df084bc335a65e5c.jpg",
     "static/media/collegeimg.jpg": "/static/media/collegeimg.e03d8ea7adbaafe4dbe6.jpg",
     "static/media/intershipdatascience.jpg": "/static/media/intershipdatascience.1f9f3d36307f0ef4103b.jpg",
     "index.html": "/index.html",
-    "main.971f600f.css.map": "/static/css/main.971f600f.css.map",
-    "main.7ece8f5f.js.map": "/static/js/main.7ece8f5f.js.map",
+    "main.8be378a0.css.map": "/static/css/main.8be378a0.css.map",
+    "main.2fa1b657.js.map": "/static/js/main.2fa1b657.js.map",
     "787.dd88a0c8.chunk.js.map": "/static/js/787.dd88a0c8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.971f600f.css",
-    "static/js/main.7ece8f5f.js"
+    "static/css/main.8be378a0.css",
+    "static/js/main.2fa1b657.js"
   ]
 }

@@ -1,81 +1,78 @@
- 
-
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom'; // Import Link from react-router-dom
-import './Navbar.css'
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
+import logo from "./img/logo.png";
 
 const Navbar = () => {
-  const [activePage, setActivePage] = useState('home'); // Set the default active page
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  const handleSetActivePage = (page) => {
-    setActivePage(page);
+  // Function to close the menu after a link is clicked
+  const handleLinkClick = () => {
+    setIsMenuOpen(false);
   };
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-      <a className="navbar-brand" href="#">
-         
-        <div className="logo">
-          <span className="name">Anish</span> &nbsp;
-          <span className="portfolio">Portfolio</span>
+    <nav className="bg-gray-900 fixed top-0 w-full h-24 shadow-lg z-50 flex items-center">
+      <div className="container mx-auto flex items-center justify-between">
+        {/* Logo */}
+        <div className="text-white">
+          <img src={logo} alt="Logo" className="w-20 h-20 rounded-full" />
         </div>
-      </a>
-      <button
-        className="navbar-toggler"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span className="navbar-toggler-icon"></span>
-      </button>
-      <div className="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul className="navbar-nav mr-auto">
-          <li className={`nav-item ${activePage === 'home' ? 'active' : ''}`}>
-            <Link
-              to="/"
-              className="nav-link"
-              onClick={() => handleSetActivePage('home')}
-            >
-              Home <span className="sr-only">(current)</span>
+
+        {/* Hamburger Menu (Visible on Small Screens) */}
+        <button
+          className="text-white lg:hidden focus:outline-none"
+          onClick={() => setIsMenuOpen(!isMenuOpen)}
+        >
+          <svg
+            className="w-6 h-6"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              d={isMenuOpen ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h16M4 18h16"}
+            />
+          </svg>
+        </button>
+
+        {/* Navigation Links */}
+        <ul
+          className={`lg:flex lg:space-x-6 lg:static absolute bg-gray-900 lg:bg-transparent w-full lg:w-auto left-0 top-24 lg:top-0 transform ${
+            isMenuOpen ? "translate-x-0" : "-translate-x-full"
+          } lg:transform-none transition-transform duration-300 ease-in-out flex flex-col lg:flex-row items-start lg:items-center text-left`}
+        >
+          <li className="text-gray-400 hover:text-white p-3 lg:p-0">
+            <Link to="/" className="font-medium" onClick={handleLinkClick}>
+              🏚 Home
             </Link>
           </li>
-          <li className={`nav-item ${activePage === 'project' ? 'active' : ''}`}>
-            <Link
-              to="/project"
-              className="nav-link"
-              onClick={() => handleSetActivePage('project')}
-            >
-              Projects
+          <li className="text-gray-400 hover:text-white p-3 lg:p-0">
+            <Link to="/project" className="font-medium" onClick={handleLinkClick}>
+              📽 Projects
             </Link>
           </li>
-          <li className={`nav-item ${activePage === 'certificate' ? 'active' : ''}`}>
-            <Link
-              to="/certificate"
-              className="nav-link"
-              onClick={() => handleSetActivePage('certificate')}
-            >
-              Certificates
+          <li className="text-gray-400 hover:text-white p-3 lg:p-0">
+            <Link to="/certificate" className="font-medium" onClick={handleLinkClick}>
+              📃 Certificates
             </Link>
           </li>
-          <li className={`nav-item ${activePage === 'about' ? 'active' : ''}`}>
-            <Link
-              to="/about"
-              className="nav-link"
-              onClick={() => handleSetActivePage('about')}
-            >
-              About
+          <li className="text-gray-400 hover:text-white p-3 lg:p-0">
+            <Link to="/about" className="font-medium" onClick={handleLinkClick}>
+              🔄 About
             </Link>
           </li>
-          <li className={`nav-item ${activePage === 'contact' ? 'active' : ''}`}>
-            <Link
-              to="/contact"
-              className="nav-link"
-              onClick={() => handleSetActivePage('contact')}
-            >
-              Contact Me
+          <li className="text-gray-400 hover:text-white p-3 lg:p-0">
+            <Link to="/contact" className="font-medium" onClick={handleLinkClick}>
+              📞 Contact Me
+            </Link>
+          </li>
+          <li className="text-gray-400 hover:text-white p-3 lg:p-0">
+            <Link to="/family" className="font-medium" onClick={handleLinkClick}>
+              👨‍👨‍👧‍👧 Family
             </Link>
           </li>
         </ul>
@@ -85,4 +82,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-

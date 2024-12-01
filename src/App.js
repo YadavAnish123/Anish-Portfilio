@@ -11,6 +11,7 @@ import About from './components/About';
 import ContectMe from './components/ContectMe';
 import Certificates from './components/Certificates';
 import Projects from './components/Projects';
+import Family from './components/Family';
 
 function App() {
   return (
@@ -24,7 +25,8 @@ function App() {
           <Route exact path="/about" element={<About/>}></Route>
           <Route exact path="/contact" element={<ContectMe/>}></Route>
           <Route exact path="/Certificate" element={<Certificates/>}></Route>
-          {/* <Route exact path="/Certificate" element={<Certificates/>}></Route> */}
+
+          <Route exact path="/family" element={<Family/>}></Route> 
 
         </Routes>
         <Footer/>

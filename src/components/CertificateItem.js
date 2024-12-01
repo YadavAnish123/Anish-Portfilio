@@ -1,36 +1,45 @@
-import React from 'react'
-import './Certificateitem.css'
-const CertificateItem=(props)=>{
-    let { title,  urlToImage,  publishedAt,courseName,from,driveLink} = props
-    const onclickHandeler=()=>{
-      
-      const element = document.getElementById('myElement');
-      element.classList.add('active');
-      console.log("zoom is calling")
-      
-    }
-  return (
-    <div>
-       
+import React from "react";
 
-    <div className="card" style={{ width: "18rem",marginTop:"20px",marginBottom:"10px" }}>
-      <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
-         {title}
-      </span>
-      
-      <img src={require(`./${urlToImage}`)} id="myElement"  onClick={onclickHandeler}   className="card-img-top"  alt="" />
-       
-       
-      <div className="card-body">
-        <h5 className="card-title">Course:-{courseName}</h5>
-        <p className="card-text">From:-{from}</p> 
-        <p className="card-text"><small className="text-danger ">Date:{publishedAt}  <a href={driveLink} className="btn btn-dark" style={{marginRight:"10px",float:"right"}} target="_blank">🔗</a> </small></p>
-        {/* <a rel="noreferrer" href= ""target="_blank" className="btn btn-sm btn-dark">Read more..</a> */}
-        
+const CertificateItem = (props) => {
+  const { title, urlToImage, publishedAt, courseName, from, driveLink } = props;
+
+  const onClickHandler = () => {
+    const element = document.getElementById("myElement");
+    element.classList.add("active");
+    console.log("Zoom is calling");
+  };
+
+  return (
+    <div className="bg-white shadow-lg rounded-lg overflow-hidden border-1 border-gray-500">
+      <div className="relative">
+        <span className="absolute top-0 right-0 bg-red-500 text-white text-xs font-bold py-1 px-3 rounded-bl-lg">
+          {title}
+        </span>
+        <img
+          src={require(`./${urlToImage}`)}
+          id="myElement"
+          onClick={onClickHandler}
+          className="w-full h-48 object-cover cursor-pointer"
+          alt={title}
+        />
+      </div>
+      <div className="p-4 space-y-2">
+        <h5 className="text-lg font-semibold">Course: {courseName}</h5>
+        <p className="text-sm text-gray-600">From: {from}</p>
+        <p className="text-sm text-gray-500">
+          Date: {publishedAt}
+          <a
+            href={driveLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="ml-2 text-blue-500 underline"
+          >
+            View Certificate
+          </a>
+        </p>
       </div>
     </div>
-  </div>
-  )
-}
+  );
+};
 
-export default CertificateItem
+export default CertificateItem;
