@@ -2,24 +2,32 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="bg-gray-100 text-gray-800 py-10 px-2 pt-28">
+    <div className="bg-gray-100 text-gray-800 py-10 px-4 pt-28">
       <div className="container mx-auto space-y-12">
         {/* Profile Section */}
-        <div className="flex  items-center bg-white shadow-lg rounded-lg p-6 space-x-28 ">
-        <p className="w-1/2 text-center text-xl leading-relaxed font-serif">
-        My name is Anish Kumar, and I hail from Sitamarhi, Bihar. I am currently working as a software developer at Greenwave Solution Private Limited in Kolkata. I pursued my engineering degree in Information Technology from Narula Institute of Technology, Kolkata. I completed my Class 12 education at Sacred Heart Public School and my Class 10 at Brilliant Public School. 
-
-My hobbies include exploring advancements in technology, engaging in sports, and fostering innovation. Thank you!
-          </p>
-          <div className="w-1/2 ">
+        <div className="flex flex-col md:flex-row items-center bg-white shadow-lg rounded-lg p-6 space-y-6 md:space-x-28 md:space-y-0">
+          {/* Image section */}
+          <div className="w-full flex justify-center md:w-1/2">
             <img
               src={require("./image.png")}
               alt="Profile"
-              className="object-cover w-84 h-84 "
+              className="object-cover w-48 h-48 md:w-84 md:h-84 rounded-full"
             />
           </div>
-           
           
+          {/* Text section */}
+          <p className="w-full md:w-1/2 text-center md:text-left text-xl leading-relaxed font-serif">
+            My name is Anish Kumar, and I hail from Sitamarhi, Bihar. I am
+            currently working as a software developer at Greenwave Solution
+            Private Limited in Kolkata. I pursued my engineering degree in
+            Information Technology from Narula Institute of Technology, Kolkata. I
+            completed my Class 12 education at Sacred Heart Public School and my
+            Class 10 at Brilliant Public School.
+            <br />
+            <br />
+            My hobbies include exploring advancements in technology, engaging in
+            sports, and fostering innovation. Thank you!
+          </p>
         </div>
 
         {/* College Section */}

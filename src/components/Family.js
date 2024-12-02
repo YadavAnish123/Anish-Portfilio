@@ -1,5 +1,6 @@
 import React from "react";
 import profilePhoto from "./img/personalimg1.jpg"; // Replace with your actual photo path
+import anjaliPhoto from "./img/Anjali_Yadav.jpg";
 
 const Family = () => {
   const myDetails = {
@@ -41,7 +42,7 @@ const Family = () => {
         name: "Sanjeev Yadav",
         profession: "Business",
       },
-      image: "https://via.placeholder.com/150",
+      image: anjaliPhoto,
     },
     {
       name: "Ranjana Yadav (Elder Sister)",
@@ -74,56 +75,34 @@ const Family = () => {
   return (
     <div className="bg-gray-100 min-h-screen py-10 px-4 pt-28 font-roboto">
       {/* About Me Section */}
-      <h1 className="text-4xl font-poppins font-bold text-center mb-8">
-        About Me
-      </h1>
-      <div className="flex flex-wrap justify-center gap-6 mb-10 mx-auto max-w-4xl">
+      <h1 className="text-4xl font-poppins font-bold text-center mb-8">About Me</h1>
+      <div className="flex flex-wrap justify-center gap-6 mb-10 mx-auto max-w-6xl">
         {/* Card 1: Profile Image */}
-        <div className="bg-white rounded-lg shadow-md p-6  hover:shadow-lg transition-shadow max-w-xs text-center">
+        <div className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow max-w-xs text-center">
           <img
             src={myDetails.image}
             alt={myDetails.name}
             className="w-80 h-80 object-cover mx-auto"
           />
-          <h2 className="text-2xl font-semibold mt-4 font-poppins">
-            {myDetails.name}
-          </h2>
+          <h2 className="text-2xl font-semibold mt-4 font-poppins">{myDetails.name}</h2>
         </div>
 
         {/* Card 2: Personal Details */}
         <div className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow max-w-md w-full">
           <h2 className="text-xl font-bold mb-4 font-poppins">Personal Details</h2>
-          <p className="text-gray-700">
-            <strong>Name:</strong> {myDetails.name}
-          </p>
-          <p className="text-gray-700">
-            <strong>Age:</strong> {myDetails.age}
-          </p>
-          <p className="text-gray-700">
-            <strong>Height:</strong> {myDetails.height}
-          </p>
-          <p className="text-gray-700">
-            <strong>Complexion:</strong> {myDetails.complexion}
-          </p>
-          <p className="text-gray-700">
-            <strong>Designation:</strong> {myDetails.designation}
-          </p>
-          <p className="text-gray-700">
-            <strong>B.Tech:</strong> {myDetails.btech}
-          </p>
-          <p className="text-gray-700">
-            <strong>12th:</strong> {myDetails.twelfth}
-          </p>
-          <p className="text-gray-700">
-            <strong>10th:</strong> {myDetails.tenth}
-          </p>
+          <p className="text-gray-700"><strong>Name:</strong> {myDetails.name}</p>
+          <p className="text-gray-700"><strong>Age:</strong> {myDetails.age}</p>
+          <p className="text-gray-700"><strong>Height:</strong> {myDetails.height}</p>
+          <p className="text-gray-700"><strong>Complexion:</strong> {myDetails.complexion}</p>
+          <p className="text-gray-700"><strong>Designation:</strong> {myDetails.designation}</p>
+          <p className="text-gray-700"><strong>B.Tech:</strong> {myDetails.btech}</p>
+          <p className="text-gray-700"><strong>12th:</strong> {myDetails.twelfth}</p>
+          <p className="text-gray-700"><strong>10th:</strong> {myDetails.tenth}</p>
         </div>
       </div>
 
       {/* Meet My Family Section */}
-      <h1 className="text-4xl font-poppins font-bold text-center mb-8">
-        Meet My Family
-      </h1>
+      <h1 className="text-4xl font-poppins font-bold text-center mb-8">Meet My Family</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {familyMembers.map((member, index) => (
           <div
@@ -133,24 +112,16 @@ const Family = () => {
             <img
               src={member.image}
               alt={member.name}
-              className="w-full h-32 object-cover rounded-t-md"
+              className="w-full h-80 sm:h-60 object-cover rounded-t-md"
             />
             <div className="mt-4 text-center">
-              <h2 className="text-xl font-semibold font-poppins">
-                {member.name}
-              </h2>
+              <h2 className="text-xl font-semibold font-poppins">{member.name}</h2>
               <p className="text-gray-600 font-roboto">Age: {member.age}</p>
-              <p className="text-gray-600 font-roboto">
-                Profession: {member.profession}
-              </p>
+              <p className="text-gray-600 font-roboto">Profession: {member.profession}</p>
               {member.husband && (
                 <>
-                  <p className="text-gray-600 font-roboto">
-                    <strong>Husband:</strong> {member.husband.name}
-                  </p>
-                  <p className="text-gray-600 font-roboto">
-                    Husband's Profession: {member.husband.profession}
-                  </p>
+                  <p className="text-gray-600 font-roboto"><strong>Husband:</strong> {member.husband.name}</p>
+                  <p className="text-gray-600 font-roboto">Husband's Profession: {member.husband.profession}</p>
                 </>
               )}
             </div>
