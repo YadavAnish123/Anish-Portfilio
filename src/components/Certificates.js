@@ -6,12 +6,12 @@ const Certificates = () => {
     
     {
       title: "Btech(IT)",
-      urlToImage: "resume.jpg",
+      urlToImage: "img/Provisional.jpg",
       publishedAt: "2020-2024",
       courseName: "Information Technology",
       from: "Narula Institute Of Technology",
       driveLink:
-        "https://drive.google.com/file/d/1cHobb2iTPYR1Prt2eRDjUTJlefokMt6i/view?usp=sharing",
+        "https://drive.google.com/file/d/1AHkLES7pc4LXMHDuepTiM3Kkpg1E2-Fb/view?usp=drivesdk",
     },
     {
       title: "Class 12",

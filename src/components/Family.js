@@ -1,6 +1,9 @@
 import React from "react";
-import profilePhoto from "./img/personalimg1.jpg"; // Replace with your actual photo path
+import profilePhoto from "./img/anish3.jpg"; // Replace with your actual photo path
 import anjaliPhoto from "./img/Anjali_Yadav.jpg";
+import RanjanaDidi from "./img/RanjanaDidi.jpg";
+import Prince from "./img/prince3.jpg";
+import Dadi from "./img/Dadi.jpg";
 
 const Family = () => {
   const myDetails = {
@@ -20,7 +23,7 @@ const Family = () => {
       name: "Shivpuri Devi (Grand Mother)",
       age: 85,
       profession: "House Maker",
-      image: "https://via.placeholder.com/150",
+      image: Dadi,
     },
     {
       name: "RamCharitra Ray (Father)",
@@ -29,7 +32,7 @@ const Family = () => {
       image: "https://via.placeholder.com/150",
     },
     {
-      name: "Mandodari Devi",
+      name: "Mandodari Devi (Mother)",
       age: 45,
       profession: "Asha",
       image: "https://via.placeholder.com/150",
@@ -52,7 +55,7 @@ const Family = () => {
         name: "Dhananjay Yadav",
         profession: "Child Department",
       },
-      image: "https://via.placeholder.com/150",
+      image: RanjanaDidi,
     },
     {
       name: "Anu Yadav (Elder Sister)",
@@ -60,7 +63,7 @@ const Family = () => {
       profession: "Cyber Cafe",
       husband: {
         name: "Vikash Yadav",
-        profession: "Child Department Accountant",
+        profession: "Social Worker at Women & Child Development Sitamarhi",
       },
       image: "https://via.placeholder.com/150",
     },
@@ -68,7 +71,7 @@ const Family = () => {
       name: "Prince Yadav (Younger Brother)",
       age: 20,
       profession: "Student",
-      image: "https://via.placeholder.com/150",
+      image: Prince,
     },
   ];
 
@@ -78,26 +81,26 @@ const Family = () => {
       <h1 className="text-4xl font-poppins font-bold text-center mb-8">About Me</h1>
       <div className="flex flex-wrap justify-center gap-6 mb-10 mx-auto max-w-6xl">
         {/* Card 1: Profile Image */}
-        <div className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow max-w-xs text-center">
+        <div className="bg-gray-100 rounded-lg shadow-md p-2 hover:shadow-lg transition-shadow max-w-md text-center w-full">
           <img
             src={myDetails.image}
             alt={myDetails.name}
-            className="w-80 h-80 object-cover mx-auto"
+            className="h-200px object-cover w-full"
           />
-          <h2 className="text-2xl font-semibold mt-4 font-poppins">{myDetails.name}</h2>
+          <h2 className="text-2xl bg-slate-100 font-semibold mt-4 font-poppins">{myDetails.name}</h2>
         </div>
 
         {/* Card 2: Personal Details */}
-        <div className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow max-w-md w-full">
+        <div className="bg-white  text-xl rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow max-w-md w-full">
           <h2 className="text-xl font-bold mb-4 font-poppins">Personal Details</h2>
-          <p className="text-gray-700"><strong>Name:</strong> {myDetails.name}</p>
-          <p className="text-gray-700"><strong>Age:</strong> {myDetails.age}</p>
-          <p className="text-gray-700"><strong>Height:</strong> {myDetails.height}</p>
-          <p className="text-gray-700"><strong>Complexion:</strong> {myDetails.complexion}</p>
-          <p className="text-gray-700"><strong>Designation:</strong> {myDetails.designation}</p>
-          <p className="text-gray-700"><strong>B.Tech:</strong> {myDetails.btech}</p>
-          <p className="text-gray-700"><strong>12th:</strong> {myDetails.twelfth}</p>
-          <p className="text-gray-700"><strong>10th:</strong> {myDetails.tenth}</p>
+          <p className="text-gray-700 mt-4"><strong>Name:</strong> {myDetails.name}</p>
+          <p className="text-gray-700 mt-4"><strong>Age:</strong> {myDetails.age}</p>
+          <p className="text-gray-700 mt-4"><strong>Height:</strong> {myDetails.height}</p>
+          <p className="text-gray-700 mt-4"><strong>Complexion:</strong> {myDetails.complexion}</p>
+          <p className="text-gray-700 mt-4"><strong>Designation:</strong> {myDetails.designation}</p>
+          <p className="text-gray-700 mt-4"><strong>B.Tech:</strong> {myDetails.btech}</p>
+          <p className="text-gray-700 mt-4"><strong>12th:</strong> {myDetails.twelfth}</p>
+          <p className="text-gray-700 mt-4"><strong>10th:</strong> {myDetails.tenth}</p>
         </div>
       </div>
 
