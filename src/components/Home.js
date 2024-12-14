@@ -1,7 +1,7 @@
 import React from "react";
 
 import resume from "./AnishResume.pdf";
-import profilePhoto from "./image.png"; // Ensure the correct path to your image file
+ 
 import anisimg from "./img/anisimg.jpg";
 
 const Home = () => {
