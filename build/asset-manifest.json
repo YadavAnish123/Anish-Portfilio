@@ -1,20 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.8be378a0.css",
-    "main.js": "/static/js/main.2fa1b657.js",
+    "main.css": "/static/css/main.8f89ef49.css",
+    "main.js": "/static/js/main.ea6fa04a.js",
     "static/js/787.dd88a0c8.chunk.js": "/static/js/787.dd88a0c8.chunk.js",
+    "static/media/anish3.jpg": "/static/media/anish3.923a16c5ede70cecd444.jpg",
+    "static/media/anis2.jpg": "/static/media/anis2.39876ff9b689d5769613.jpg",
     "static/media/image.png": "/static/media/image.5d35abf2adc865f86a47.png",
+    "static/media/anisimg.jpg": "/static/media/anisimg.0fd586b27ebf5d08705e.jpg",
+    "static/media/Provisional.jpg": "/static/media/Provisional.6848323835d00ce63b4d.jpg",
     "static/media/logo.png": "/static/media/logo.cb8e5078405bdcf32ca7.png",
     "static/media/dsa.jpg": "/static/media/dsa.446748459c0155c09cff.jpg",
     "static/media/10th.jpg": "/static/media/10th.4c717e9567311e6b14a6.jpg",
     "static/media/prototypeOutput.png": "/static/media/prototypeOutput.2568d7762f585b687ac2.png",
     "static/media/12th.jpg": "/static/media/12th.072eaabbc405732ab85c.jpg",
     "static/media/condingNinja.jpg": "/static/media/condingNinja.b29241830fe97e5ab85e.jpg",
+    "static/media/prince2.jpg": "/static/media/prince2.df2f2314e867ffbbe1ec.jpg",
     "static/media/sihflowchat.png": "/static/media/sihflowchat.914f825eea164c5a1226.png",
+    "static/media/Dadi.jpg": "/static/media/Dadi.791236f3d568db2b833d.jpg",
+    "static/media/Prince.jpg": "/static/media/Prince.fbcf2dacebcb57cb042f.jpg",
+    "static/media/prince3.jpg": "/static/media/prince3.11e3d9f0237376a8aabb.jpg",
     "static/media/resume.jpg": "/static/media/resume.322a9927c4349f5435a9.jpg",
+    "static/media/RanjanaDidi.jpg": "/static/media/RanjanaDidi.97a83eef5c173f25024f.jpg",
     "static/media/hackathon.jpg": "/static/media/hackathon.4b66e6383a9cd558d6a5.jpg",
     "static/media/machinelearningflowchart.png": "/static/media/machinelearningflowchart.c2ccb5813d6b469a3091.png",
     "static/media/datascience.jpg": "/static/media/datascience.b89903e08d4d4771cdbe.jpg",
+    "static/media/Anjali_Yadav.jpg": "/static/media/Anjali_Yadav.72c068f09aefc6b2d373.jpg",
     "static/media/experiance.jpg": "/static/media/experiance.066b73a33c2f9d8e0830.jpg",
     "static/media/device.jpg": "/static/media/device.2146f253a0ef7b1bd04c.jpg",
     "static/media/10thschool.jpg": "/static/media/10thschool.f5e9b97e7c36e08cb756.jpg",
@@ -28,12 +38,12 @@
     "static/media/collegeimg.jpg": "/static/media/collegeimg.e03d8ea7adbaafe4dbe6.jpg",
     "static/media/intershipdatascience.jpg": "/static/media/intershipdatascience.1f9f3d36307f0ef4103b.jpg",
     "index.html": "/index.html",
-    "main.8be378a0.css.map": "/static/css/main.8be378a0.css.map",
-    "main.2fa1b657.js.map": "/static/js/main.2fa1b657.js.map",
+    "main.8f89ef49.css.map": "/static/css/main.8f89ef49.css.map",
+    "main.ea6fa04a.js.map": "/static/js/main.ea6fa04a.js.map",
     "787.dd88a0c8.chunk.js.map": "/static/js/787.dd88a0c8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8be378a0.css",
-    "static/js/main.2fa1b657.js"
+    "static/css/main.8f89ef49.css",
+    "static/js/main.ea6fa04a.js"
   ]
 }
