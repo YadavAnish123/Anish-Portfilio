@@ -71,7 +71,7 @@ const ContactMe = () => {
               <div>
                 <h4 className="font-semibold">LinkedIn</h4>
                 <a
-                  href="https://www.linkedin.com/in/anish-kumar-5b477a23a/"
+                  href="https://www.linkedin.com/in/anish-kumar-02257936a/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-blue-700 hover:underline"
