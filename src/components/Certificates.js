@@ -40,15 +40,15 @@ const Certificates = () => {
       driveLink:
         "https://drive.google.com/file/d/1cHobb2iTPYR1Prt2eRDjUTJlefokMt6i/view?usp=sharing",
     },
-    {
-      title: "EXPERIENCE LETTER",
-      urlToImage: "experiance.jpg",
-      publishedAt: "11/03/2023 to Present",
-      courseName: "Backend",
-      from: "Hansraj Ventures Pvt. Ltd.",
-      driveLink:
-        "https://drive.google.com/file/d/1Q61EEr6VDgSQ6SlO5kdKds6_1BBudlha/view?usp=sharing",
-    },
+    // {
+    //   title: "EXPERIENCE LETTER",
+    //   urlToImage: "experiance.jpg",
+    //   publishedAt: "11/03/2023 to 31/06/2023",
+    //   courseName: "Backend",
+    //   from: "Hansraj Ventures Pvt. Ltd.",
+    //   driveLink:
+    //     "https://drive.google.com/file/d/1Q61EEr6VDgSQ6SlO5kdKds6_1BBudlha/view?usp=sharing",
+    // },
     
     
     {
