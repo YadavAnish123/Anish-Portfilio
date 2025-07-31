@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.8f89ef49.css",
-    "main.js": "/static/js/main.7138bce8.js",
+    "main.js": "/static/js/main.2dac021e.js",
     "static/js/787.dd88a0c8.chunk.js": "/static/js/787.dd88a0c8.chunk.js",
     "static/media/anisimg.jpg": "/static/media/anisimg.ed42bd5759fe70cae1ab.jpg",
     "static/media/anis2.jpg": "/static/media/anis2.39876ff9b689d5769613.jpg",
@@ -16,9 +16,9 @@
     "static/media/prince2.jpg": "/static/media/prince2.df2f2314e867ffbbe1ec.jpg",
     "static/media/sihflowchat.png": "/static/media/sihflowchat.914f825eea164c5a1226.png",
     "static/media/Dadi.jpg": "/static/media/Dadi.791236f3d568db2b833d.jpg",
+    "static/media/resume.jpg": "/static/media/resume.edf71f5cce0cda796c67.jpg",
     "static/media/Prince.jpg": "/static/media/Prince.fbcf2dacebcb57cb042f.jpg",
     "static/media/prince3.jpg": "/static/media/prince3.11e3d9f0237376a8aabb.jpg",
-    "static/media/resume.jpg": "/static/media/resume.322a9927c4349f5435a9.jpg",
     "static/media/RanjanaDidi.jpg": "/static/media/RanjanaDidi.97a83eef5c173f25024f.jpg",
     "static/media/hackathon.jpg": "/static/media/hackathon.4b66e6383a9cd558d6a5.jpg",
     "static/media/anish3.jpg": "/static/media/anish3.cdb1479e2bd67ee10136.jpg",
@@ -39,11 +39,11 @@
     "static/media/intershipdatascience.jpg": "/static/media/intershipdatascience.1f9f3d36307f0ef4103b.jpg",
     "index.html": "/index.html",
     "main.8f89ef49.css.map": "/static/css/main.8f89ef49.css.map",
-    "main.7138bce8.js.map": "/static/js/main.7138bce8.js.map",
+    "main.2dac021e.js.map": "/static/js/main.2dac021e.js.map",
     "787.dd88a0c8.chunk.js.map": "/static/js/787.dd88a0c8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8f89ef49.css",
-    "static/js/main.7138bce8.js"
+    "static/js/main.2dac021e.js"
   ]
 }

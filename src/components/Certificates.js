@@ -38,7 +38,7 @@ const Certificates = () => {
       courseName: "What I do So Far",
       from: "",
       driveLink:
-        "https://drive.google.com/file/d/1cHobb2iTPYR1Prt2eRDjUTJlefokMt6i/view?usp=sharing",
+        "https://drive.google.com/file/d/1r0InFImbKHjubeZANq6rZYwXImDKb9D7/view?usp=drivesdk",
     },
     // {
     //   title: "EXPERIENCE LETTER",
