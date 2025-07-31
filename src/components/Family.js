@@ -12,9 +12,9 @@ const Family = () => {
     height: "5.4 ft",
     complexion: "Fair",
     designation: "Fullstack Developer at Greenwave Solution Private Limited",
-    btech: "B.Tech in Information Technology (NIT Kolkata), 9.0 SGPA",
+    btech: "B.Tech in Information Technology (NIT Kolkata), 8.89 SGPA 84.45%",
     twelfth: "12th: Sacred Heart Public School Sitamarhi, 74.20%",
-    tenth: "10th: Brilliant Public School, 9.2 CGPA",
+    tenth: "10th: Brilliant Public School, 9.2 CGPA 87.40%",
     image: profilePhoto,
   };
 
